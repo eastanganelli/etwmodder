@@ -1,0 +1,4 @@
+-> ionic build
+-> npx cap copy
+-> npx cap open electron
+-> electron-packager ./electron wte-data-mod --overwrite --asar=true --platform=win32 --arch=ia32 --icon=app/assets/icons/favicon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName="WTE Multi Data modifier"
